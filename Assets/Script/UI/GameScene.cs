@@ -50,9 +50,6 @@ public class GameScene : MonoBehaviour
             if (i < GameManager.instance.achivement)
             {
                 container.GetChild(i).GetChild(0).gameObject.SetActive(false);
-
-                container.GetChild(i).localScale = Vector3.zero;
-                container.GetChild(i).DOScale(1, .3f);
                 yield return new WaitForSecondsRealtime(.3f);
             }
         }

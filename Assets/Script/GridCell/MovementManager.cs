@@ -55,6 +55,7 @@ public class MovementManager : MonoBehaviour
                 Collider2D collider2D = selectedObj.GetComponent<Collider2D>();
                 collider2D.enabled = false;
                 bool isAllCantMove = false;
+                GameManager.instance.DisableHand2();
                 selectedObj.transform.DOMove(GridCellManager.instance.PositonToMove(targetCell), 0.5f).OnComplete(
                     () =>
                     {
@@ -69,7 +70,11 @@ public class MovementManager : MonoBehaviour
                         }
                         if (!isAllCantMove)
                         {
-                            GameManager.instance.Lose();
+                            FoodManager.instance.CheckWin();
+                            if(!GameManager.instance.IsGameLose() && !GameManager.instance.IsGameWin())
+                            {
+                                GameManager.instance.Lose();
+                            }
                         }
                     });
                 selectedObj = null;

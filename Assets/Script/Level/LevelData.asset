@@ -22,7 +22,7 @@ MonoBehaviour:
     timeLimit: 20
     achivement: 0
     isCompleted: 0
-    isPlayable: 0
+    isPlayable: 1
   - map: {fileID: 9176446691596867793, guid: e40e10f4654f031459767420fd4e1b95, type: 3}
     timeLimit: 20
     achivement: 0

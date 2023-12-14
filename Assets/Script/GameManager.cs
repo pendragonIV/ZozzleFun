@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,6 +22,8 @@ public class GameManager : MonoBehaviour
 
     public SceneChanger sceneChanger;
     public GameScene gameScene;
+    public GameObject tutorHand;
+    public GameObject tutorHand2;
 
     #region Game status
     [SerializeField]
@@ -81,6 +84,31 @@ public class GameManager : MonoBehaviour
         if (timeLeft <= 0)
         {
             Lose();
+        }
+    }
+
+    public void DisableHand()
+    {
+        if(tutorHand != null && tutorHand.activeSelf)
+        {
+            tutorHand.SetActive(false);
+            ShowHand2();
+        }
+    }
+
+    private void ShowHand2()
+    {
+        if(tutorHand2 != null)
+        {
+            tutorHand2.SetActive(true);
+        }
+    }
+
+    public void DisableHand2()
+    {
+        if (tutorHand2 != null && tutorHand2.activeSelf)
+        {
+            tutorHand2.SetActive(false);
         }
     }
 

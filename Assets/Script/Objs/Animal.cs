@@ -24,6 +24,7 @@ public class Animal : MonoBehaviour
     private void OnMouseDown()
     {
         MovementManager.instance.SelectingAnimal(this.gameObject);
+        GameManager.instance.DisableHand();
         CheckFood();
     }
 
