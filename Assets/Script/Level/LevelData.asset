@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30616abb398f7394782d76cf57753986, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  levels:
+  - map: {fileID: 7402614312621807015, guid: 73be04f95e0f313479b9e06aac189289, type: 3}
+    timeLimit: 20
+    achivement: 0
+    isCompleted: 0
+    isPlayable: 1
+  - map: {fileID: 8920678194453640310, guid: 14040c23e5e201141951e5feff6a8417, type: 3}
+    timeLimit: 20
+    achivement: 0
+    isCompleted: 0
+    isPlayable: 0
+  - map: {fileID: 9176446691596867793, guid: e40e10f4654f031459767420fd4e1b95, type: 3}
+    timeLimit: 20
+    achivement: 0
+    isCompleted: 0
+    isPlayable: 0
+  - map: {fileID: 709376317456651146, guid: ef19f30810c61d545a3beb5e68585a6b, type: 3}
+    timeLimit: 30
+    achivement: 0
+    isCompleted: 0
+    isPlayable: 0
+  - map: {fileID: 3640006432417248687, guid: 7be77cb3570e0cd418b3fc2f34dad971, type: 3}
+    timeLimit: 30
+    achivement: 0
+    isCompleted: 0
+    isPlayable: 0
+  - map: {fileID: 5282670651067777308, guid: c4efbc9b497da9b4c9bd10da40c15bcc, type: 3}
+    timeLimit: 30
+    achivement: 0
+    isCompleted: 0
+    isPlayable: 0
+  - map: {fileID: 4006932436927389178, guid: de73cb59b2f07fa4c8093261fcb59d21, type: 3}
+    timeLimit: 30
+    achivement: 0
+    isCompleted: 0
+    isPlayable: 0
+  - map: {fileID: 2087039345820666591, guid: 12cff9c1e6b07f247840d5666ef993ef, type: 3}
+    timeLimit: 30
+    achivement: 0
+    isCompleted: 0
+    isPlayable: 0
+  - map: {fileID: 3602697317108930497, guid: 4f67b6158b51cef48a866651e055e101, type: 3}
+    timeLimit: 30
+    achivement: 0
+    isCompleted: 0
+    isPlayable: 0
+  - map: {fileID: 5073025470529596857, guid: 5dc8a56c2fa609c45a2857bfedd5d0c4, type: 3}
+    timeLimit: 30
+    achivement: 0
+    isCompleted: 0
+    isPlayable: 0
